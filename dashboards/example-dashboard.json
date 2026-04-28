@@ -1,0 +1,10 @@
+{
+  "title": "Synthetic Monitoring Dashboard",
+  "widgets": [
+    {
+      "type": "timeseries",
+      "metric": "latency_ms",
+      "title": "Latency Over Time"
+    }
+  ]
+}

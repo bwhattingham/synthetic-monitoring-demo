@@ -1,0 +1,11 @@
+{
+  "name": "global-latency-check",
+  "type": "api",
+  "config": {
+    "method": "GET",
+    "url": "http://localhost:5000/latency",
+    "assertions": [
+      { "type": "responseTime", "operator": "<", "target": 500 }
+    ]
+  }
+}
